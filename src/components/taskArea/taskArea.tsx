@@ -8,8 +8,8 @@ import { Task } from '../task/task';
 export const TaskArea: FC = (): ReactElement => {
   return (
     <Grid item md={8} px={4}>
-      <Box mb={8} px={4}>
-        <h2>Status of Your Tasks as on {format(new Date(), 'PPPP')}</h2>
+      <Box mb={8} px={4} sx={{ textAlign: 'center' }}>
+        <h2>Status of your Tasks as on {format(new Date(), 'PPPP')}</h2>
       </Box>
       <Grid container display="flex" justifyContent="center">
         <Grid
