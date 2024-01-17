@@ -12,11 +12,11 @@ import PropTypes from 'prop-types';
 
 export const Task: FC<ITask> = (props): ReactElement => {
   const {
+    id,
     title = 'Test Title',
     date = new Date(),
     description = 'Lorem ipsum dolor sit amet',
     priority = Priority.normal,
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     status = Status.completed,
     onStatusChange = (e) => console.log(e),
     onClick = (e) => console.log(e),
@@ -40,7 +40,12 @@ export const Task: FC<ITask> = (props): ReactElement => {
     >
       <TaskHeader title={title} date={date} />
       <TaskDescription description={description} />
-      <TaskFooter onClick={onClick} onStatusChange={onStatusChange} />
+      <TaskFooter
+        id={id}
+        status={status}
+        onClick={onClick}
+        onStatusChange={onStatusChange}
+      />
     </Box>
   );
 };
