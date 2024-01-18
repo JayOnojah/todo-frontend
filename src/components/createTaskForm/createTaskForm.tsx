@@ -153,7 +153,7 @@ export const CreateTaskForm: FC = (): ReactElement => {
           size="large"
           fullWidth
         >
-          Create a Task
+          Create New Task
         </Button>
       </Stack>
     </Box>
