@@ -1,4 +1,4 @@
-# A Todo App in React TypeScript
+# Todo App using ReactJS with TypeScript
 
 Utilized TypeScript with front-end frameworks like React JS, Tanstack/React Query, Context API and Material UI.
 
