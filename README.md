@@ -1,6 +1,6 @@
 # Todo App using ReactJS with TypeScript
 
-Utilized TypeScript with front-end frameworks like React JS, Tanstack/React Query, Context API and Material UI.
+Utilized TypeScript with frontend frameworks like React JS, Tanstack/React Query, Context API and Material UI.
 
 **Prerequisites**
 
